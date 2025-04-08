@@ -60,8 +60,6 @@ public abstract class ChessPiece {
             this.yKoordinate = y;
         }
 
-//  d)  boolean canMove(int x, int y)
-
         /**
          * Prüft, ob die Schachfigur sich auf die angegebene Position bewegen kann.
          *
