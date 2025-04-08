@@ -35,7 +35,6 @@ import java.util.List;
             spielbrett[0][4] = new Koenig(1, 0, 4);
             spielbrett[7][4] = new Koenig(-1, 7, 4);
         }
-// g)  List<ChessPiece> piecesInPlay()
         /**
          * Gibt eine Liste aller aktuell aktiven Schachfiguren auf dem Spielfeld zurück.
          *
@@ -49,7 +48,7 @@ import java.util.List;
                         aktive.add(spielbrett[i][j]); }
                 }
             } return aktive; }
-//  h) aktueller Zustand
+
         /**
          * Gibt das Schachbrett rekursiv als Text auf der Konsole aus.
          * Leere Felder werden als "." dargestellt.
@@ -80,8 +79,6 @@ import java.util.List;
                     aktuellerZustandHelper(zeile, spalte + 1);
                     break;}}
 
-
-        //  i)  boolean movePiece(ChessPiece piece, int x, int y)
         /**
          * Bewegt eine Figur auf dem Schachbrett, falls der Zug gültig ist.
          *
